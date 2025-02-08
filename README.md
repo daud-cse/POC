@@ -25,6 +25,7 @@ Sprint 175:
 # Redis
 # AKS 
 # ADO pipline
+# TeamCity Deployment 
  # Micrsoservcie
 # Canary Deployment
 # Blue Green Deployment
