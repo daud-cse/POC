@@ -1,1 +1,45 @@
-# POC
+ # POC
+# Make a Backlog Story:
+# confluence jira board
+1. Analysis and Dockerize Story 
+  Make Susbtask 
+   a.QA Part 
+   b.Development part
+ 2. Implementation 
+  Make a subtask 
+  Subtask Link
+
+   a.Development 
+   b.QA Bug and blocker 
+Sprint 175:
+
+
+
+# Active batch Server 
+# Azure Keyvault
+# Azure Function 
+# Azure Service Bus
+# k9s
+# PV / PVC
+# 
+# Redis
+# AKS 
+# ADO pipline
+ # Micrsoservcie
+# Canary Deployment
+# Blue Green Deployment
+# AB testing 
+# Local Dockerize 
+# AKS Configuration 
+# Console Application
+# Windows Application
+# Web Service
+# Web application
+# Authentication and Authorization 
+# Kerberous and LDAP
+# Fortify
+# UnitTest Code (Coverlet)
+# SonarCube Analyzer (Code Smell)
+# HELM Chart
+# Argo CD
+# Git Command GitSquash -> Git Desktop
