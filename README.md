@@ -19,6 +19,8 @@ Sprint 175:
 # Azure Keyvault
 # Azure Function 
 # Azure Service Bus
+# AKS (Azure Kubernets Service)
+# Liveness vs Readiness Probes
 # k9s
 # PV / PVC
 # 
