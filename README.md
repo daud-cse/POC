@@ -17,15 +17,17 @@ Sprint 175:
 
 # Active batch Server 
 # Azure Keyvault
+ Certiticate and Secret 
 # Azure Function 
 # Azure Service Bus
 # AKS (Azure Kubernets Service)
-# Liveness vs Readiness Probes
+# HealtyCheck Configure in MiddleWare
+# Liveness , Readiness and Starup Probes
 # k9s
 # PV / PVC
-# 
+# RabbitMQ
+
 # Redis
-# AKS 
 # ADO pipline
 # TeamCity Deployment 
  # Micrsoservcie
@@ -45,4 +47,5 @@ Sprint 175:
 # SonarCube Analyzer (Code Smell)
 # HELM Chart
 # Argo CD
-# Git Command GitSquash -> Git Desktop
+# Git Command
+  GitSquash -> Git Desktop
