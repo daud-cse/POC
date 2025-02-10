@@ -1,6 +1,32 @@
 
 ### **Technologies and Tools**
 
+Yes, **Docker** and **Kubernetes** are both **technology tools**. Here's a detailed breakdown:
+
+---
+
+### **1. Docker (Dockerize)**  
+- **Type**: **Containerization Tool**  
+- **Purpose**: Packages applications and their dependencies into lightweight, portable containers.  
+- **Key Features**:  
+  - Enables consistent environments across development, testing, and production.  
+  - Uses Dockerfiles to define container images.  
+  - Runs containers on any system with Docker installed.  
+- **Example**:  
+  - **Local Dockerize**: Running the "Fraud Event API" in a Docker container with Redis for local development.  
+
+---
+
+### **2. Kubernetes**  
+- **Type**: **Container Orchestration Tool**  
+- **Purpose**: Manages containerized applications at scale, automating deployment, scaling, and operations.  
+- **Key Features**:  
+  - Manages clusters of containers (e.g., Docker containers).  
+  - Provides self-healing, load balancing, and scaling.  
+  - Uses manifests (YAML files) to define desired states.  
+- **Example**:  
+  - **AKS (Azure Kubernetes Service)**: Hosting 88 microservices (e.g., "Tiger Search API") with auto-scaling and high availability.  
+
 
 ### **1. CI/CD & DevOps**
 - **ADO Pipeline (Azure DevOps Pipeline)**:  
