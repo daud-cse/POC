@@ -28,7 +28,7 @@ Yes, **Docker** and **Kubernetes** are both **technology tools**. Here's a detai
   - **AKS (Azure Kubernetes Service)**: Hosting 88 microservices (e.g., "Tiger Search API") with auto-scaling and high availability.  
 
 
-### **1. CI/CD & DevOps**
+### **3. CI/CD & DevOps**
 - **ADO Pipeline (Azure DevOps Pipeline)**:  
   Example: Automatically build and deploy microservices to AKS when code is pushed to the `main` branch.  
 - **Argo CD**:  
@@ -42,7 +42,7 @@ Yes, **Docker** and **Kubernetes** are both **technology tools**. Here's a detai
 
 ---
 
-### **2. Cloud & Serverless**  
+### **4. Cloud & Serverless**  
 - **Azure Function**:  
   Example: Processing image uploads asynchronously (e.g., resizing images) in a serverless function.  
 - **Azure Service Bus**:  
@@ -54,7 +54,7 @@ Yes, **Docker** and **Kubernetes** are both **technology tools**. Here's a detai
 
 ---
 
-### **3. Security & Identity**  
+### **5. Security & Identity**  
 - **Azure Key Vault**:  
   Example: Storing secrets (database passwords, API keys) used by the "Authentication and Authorization" service.  
 - **Kerberos and LDAP**:  
@@ -66,7 +66,7 @@ Yes, **Docker** and **Kubernetes** are both **technology tools**. Here's a detai
 
 ---
 
-### **4. Monitoring & Testing**  
+### **6. Monitoring & Testing**  
 - **AB Testing**:  
   Example: Testing two UI versions of the "Web Application" to determine which layout increases user engagement.  
 - **UnitTest Code (Coverlet)**:  
@@ -76,7 +76,7 @@ Yes, **Docker** and **Kubernetes** are both **technology tools**. Here's a detai
 
 ---
 
-### **5. Event-Driven & Caching**  
+### **7. Event-Driven & Caching**  
 - **Redis**:  
   Example: Caching product catalog data in the "Tiger Search API" to reduce database load.  
 - **Active Batch**:  
@@ -85,7 +85,7 @@ Yes, **Docker** and **Kubernetes** are both **technology tools**. Here's a detai
   Example: Enabling asynchronous communication between the "Fraud Event API" and a fraud detection service using message queues (e.g., order processing → fraud check).
 ---
 
-### **6. Applications & Services**  
+### **8. Applications & Services**  
 - **Console Application**:  
   Example: A CLI tool to bulk-import user data into the "Web Service."  
 - **Windows Application**:  
@@ -97,7 +97,7 @@ Yes, **Docker** and **Kubernetes** are both **technology tools**. Here's a detai
 
 ---
 
-### **7. Project Management**  
+### **9. Project Management**  
 - **Maintain Jira Board**:  
   Example: Tracking tasks like "Implement Helm Charts for AKS" in a sprint.  
 - **Make Story -> Sprint**:  
@@ -105,7 +105,7 @@ Yes, **Docker** and **Kubernetes** are both **technology tools**. Here's a detai
 
 ---
 
-### **8. Development Practices**  
+### **10. Development Practices**  
 - **Local Dockerize**:  
   Example: Running the "Fraud Event API" in Docker Compose with Redis for local development.  
 - **GitSquash -> Git Desktop**:  
@@ -121,56 +121,3 @@ Yes, **Docker** and **Kubernetes** are both **technology tools**. Here's a detai
 5. **Monitoring**: Use AB Testing to validate the API’s impact on fraud detection rates.  
 
 
-
-### **Technology--Azure Kubernetes Service (AKS)** 
-
-**Tools**:
-
-  1. **Azure CLI (Command-Line Interface)**: A tool to manage AKS clusters and other Azure resources through command-line commands. You can use it to create, configure, and scale AKS clusters.
-  
-  2. **kubectl**: A Kubernetes command-line tool used to interact with and manage Kubernetes clusters. It’s commonly used to deploy applications, inspect cluster resources, and troubleshoot issues in AKS.
-  
-  3. **Azure Portal**: The web-based interface that provides a visual way to manage AKS clusters and resources in Azure, including scaling clusters, configuring networking, and monitoring.
-  
-  4. **Azure Monitor**: A service that provides monitoring capabilities for AKS, including logs, metrics, and alerts to track the health and performance of your Kubernetes clusters and workloads.
-  
-  5. **Helm**: A package manager for Kubernetes that simplifies the deployment and management of applications on AKS using pre-configured charts (packages).
-  
-  6. **Azure DevOps**: A suite of tools that can be integrated with AKS to automate the build, deployment, and management of Kubernetes applications using CI/CD pipelines.
-  
-  7. **Kubernetes Dashboard**: A web-based UI that allows you to manage and troubleshoot applications running in AKS clusters.
-  
-  8. **Azure Security Center**: Provides security management and threat protection for AKS clusters, helping to monitor and protect the workloads running within them.
-  
-  8. **K9s**: Provides security management and threat protection for AKS clusters, helping to monitor and protect the workloads running within them.
-
-These are some of the tools that integrate with and enhance the usage of AKS as part of the overall cloud-native architecture and container management.
-
-In .NET development, **technology** and **tools** serve different purposes but are closely related:  
-
-### **Technology**  
-- Refers to the **frameworks, platforms, and programming languages** used to build applications.  
-- Defines the **architecture, design patterns, and methodologies** for software development.  
-- Examples in .NET:  
-  - **ASP.NET Core** (for web applications)  
-  - **Entity Framework Core** (for ORM and database access)  
-  - **Razor** (for building interactive web UIs)  
-  - **Microservices Architecture**
-  - **GIT OPS**  
-
-### **Tools**  
-- Refers to **software applications and utilities** that assist in the development, debugging, deployment, and maintenance of .NET applications.  
-- Helps developers **write, test, and manage** code efficiently.  
-- Examples in .NET:  
-  - **Visual Studio / Visual Studio Code** (IDE for development)  
-  - **NuGet** (package manager for .NET libraries)  
-  - **Azure DevOps / GitHub Actions** (for CI/CD and version control)  
-  - **Postman** (for testing APIs)  
-  - **SonarQube** (for static code analysis)  
-  - **Docker & Kubernetes** (for containerization and orchestration)  
-
-### **Key Difference**  
-- **Technology** is what you use to **develop** applications (e.g., ASP.NET Core).  
-- **Tools** are what you use to **support** development, debugging, and deployment (e.g., Visual Studio, NuGet).  
-
-Let me know if you need more details! 🚀
